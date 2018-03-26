@@ -104,3 +104,29 @@ footer {
 .jumbotrontwo .h1,.jumbotrontwo h1 {
 	font-size:63px;
 }
+
+/* Headings */
+
+.headcolor1 {
+	color: red;
+}
+
+.headcolor2 {
+	color: blue;
+}
+
+.headcolor3 {
+	color: green;
+}
+
+.headcolor4 {
+	color: yellow;
+}
+
+.headcolor5 {
+	color: orange;
+}
+
+.headcolor6 {
+	color: purple;
+}
