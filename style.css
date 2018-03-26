@@ -1,0 +1,106 @@
+.navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+}
+    
+footer {
+      background-color: #f2f2f2;
+      padding: 25px;
+}
+
+/* Drop Down Button */
+
+.dropbtn {
+    background-color: #222;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #000;
+}
+
+/* Bootstrap */
+
+.text-center {
+    text-align: left;
+}
+
+/* Jumbotron */
+
+.jumbotrontwo {
+	padding-top: 30px;
+	padding-bottom:30px;
+	margin-bottom:30px;
+	color:inherit;
+	background-color:#fff;
+}
+
+.jumbotrontwo .h1,.jumbotrontwo h1 {
+	color:inherit
+}
+
+.jumbotrontwo p {
+	margin-bottom:15px;
+	font-size:21px;
+	font-weight:200;
+}
+
+.jumbotrontwo>hr {
+	border-top-color:#d5d5d5;
+}
+
+.container .jumbotrontwo,.container-fluid .jumbotrontwo {
+	padding-right:15px;
+	padding-left:15px;
+	border-radius:6px;
+}
+
+.jumbotrontwo .container {
+	max-width:100%;
+}
+
+@media screen and (min-width:768px) {
+	
+.jumbotrontwo {
+	padding-top:48px;
+	padding-bottom:48px;
+}
+
+.container .jumbotrontwo,.container-fluid .jumbotrontwo {
+	padding-right:60px;
+	padding-left:60px;
+}
+
+.jumbotrontwo .h1,.jumbotrontwo h1 {
+	font-size:63px;
+}
